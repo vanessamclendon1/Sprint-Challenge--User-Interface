@@ -153,7 +153,7 @@ footer nav a {
     display: flex; 
     justify-content: space-around; 
     padding: 20px 0;
-    margin: 30px 0;
+    margin: 20px 0;
     align-items: flex-end;
 }
 
@@ -165,4 +165,75 @@ nav a{
 /*top image under header image*/
 .home.jumbo{
     margin: 0 20px;
+    margin-bottom: 20px;
 }
+
+/*box styling*/
+.middle-content .boxes .box.box1{
+    background:teal;
+}
+.middle-content .boxes .box.box2{
+    background:gold;
+}
+.middle-content .boxes .box.box3{
+    background:cadetblue;
+}
+.middle-content .boxes .box.box4{
+    background:coral;
+}.middle-content .boxes .box.box5{
+    background:crimson;
+}
+.middle-content .boxes .box.box6{
+    background:forestgreen;
+}
+.middle-content .boxes .box.box7{
+    background:darkorchid;
+}
+.middle-content .boxes .box.box8{
+    background:hotpink;
+}
+.middle-content .boxes .box.box9{
+    background:indigo;
+}
+.middle-content .boxes .box.box10{
+    background:dodgerblue;
+}
+
+
+/*ABOUT PAGE CSS*/
+
+/*header*/
+.about.navigation{
+    display: flex; 
+    justify-content: space-around; 
+    padding: 20px 0;
+    margin: 10px 0;
+    align-items: flex-end;
+}
+nav a{
+    margin: 30px;
+   text-decoration:none;   
+}
+
+/*about section under picture*/
+.about-section{
+    margin: 20px; 
+}
+
+/*middle content section  */
+.about-middle{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-between;
+
+}
+.cards{
+   border: 1px solid red;
+   padding:40px 0;
+   width:385px;
+   margin: 40px 0;
+
+    
+}
+
+

@@ -144,3 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*** my code home page ***/
+
+/*navigation and logo */
+.home.navigation{
+    display: flex; 
+    justify-content: space-around; 
+    padding: 20px 0;
+    margin: 30px 0;
+    align-items: flex-end;
+}
+
+nav a{
+    margin: 30px;
+   text-decoration:none;   
+}
+
+/*top image under header image*/
+.home.jumbo{
+    margin: 0 20px;
+}

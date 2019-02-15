@@ -225,15 +225,26 @@ nav a{
    display: flex;
    flex-wrap: wrap;
    justify-content:space-between;
+   border-top:1px dotted black;
 
 }
 .cards{
-   border: 1px solid red;
-   padding:40px 0;
+   border-bottom: 1px dotted black;
+   padding:20px 0;
    width:385px;
-   margin: 40px 0;
+   margin: 20px 0;
+}
 
-    
+.cards h2{
+    margin:10px 0;
+}
+
+.cards button{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border:2px solid black;
+    margin: 15px 0;
 }
 
 
